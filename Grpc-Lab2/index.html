@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Service</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Place an Order</h1>
+
+        <div class="form-group">
+            <label>User ID</label>
+            <input type="number" id="userId" placeholder="Enter User ID" value="1" />
+        </div>
+
+        <div class="form-group">
+            <label>Product ID</label>
+            <input type="number" id="productId" placeholder="Enter Product ID" value="1" />
+        </div>
+
+        <div class="form-group">
+            <label>Quantity</label>
+            <input type="number" id="quantity" placeholder="Enter Quantity" value="5" />
+        </div>
+
+        <button id="placeOrderBtn">Place Order</button>
+
+        <div id="result" class="result hidden"></div>
+    </div>
+
+    <script src="dist/main.js"></script>
+
+</body>
+</html>
